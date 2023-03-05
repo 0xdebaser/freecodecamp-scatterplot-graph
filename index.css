@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+}
+
+.legend-group {
+  display: flex;
+  align-items: center;
+}
+
+.tooltip {
+  padding: 5px;
+  position: absolute;
+  background: azure;
+  opacity: 0;
+  text-align: left;
+  border: 1px solid navy;
+  border-radius: 3px;
+  max-width: 180px;
+}
+
+#legend {
+  border: 1px solid black;
+  width: 190px;
+  position: relative;
+  left: 57%;
+  right: 43%;
+  bottom: 150px;
+}
